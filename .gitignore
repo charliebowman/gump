@@ -1,3 +1,9 @@
 gump
 .env
-FEATURES.md
+*.md
+!README.md
+scripts/
+web/wireframe*.html
+web/design-inspiration.html
+web/app-description.html
+web/user-journey-flow.html
