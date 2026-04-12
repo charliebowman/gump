@@ -3,7 +3,8 @@ gump
 *.md
 !README.md
 scripts/
-web/wireframe*.html
-web/design-inspiration.html
-web/app-description.html
-web/user-journey-flow.html
+
+# Expo / React Native
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/

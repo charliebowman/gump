@@ -23,10 +23,6 @@ func Setup(db *sql.DB, cfg *config.Config) *gin.Engine {
 		AllowCredentials: true,
 	}))
 
-	// Serve frontend
-	r.StaticFile("/", "./web/index.html")
-	r.Static("/web", "./web")
-
 	// Services
 	tmdbClient := tmdb.NewClient(cfg.TMDBAPIKey)
 	olClient := openlibrary.NewClient()

@@ -1,0 +1,17 @@
+export const colors = {
+  bg: '#0d1117',
+  card: '#161b22',
+  cardBorder: '#30363d',
+  text: '#c9d1d9',
+  textPrimary: '#f0f6fc',
+  textSecondary: '#8b949e',
+  accent: '#58a6ff',
+  green: '#238636',
+  greenHover: '#2ea043',
+  red: '#da3633',
+  orange: '#f0883e',
+  tabInactive: '#8b949e',
+  inputBg: '#0d1117',
+  headerBg: '#161b22',
+  tagBg: '#21262d',
+};
